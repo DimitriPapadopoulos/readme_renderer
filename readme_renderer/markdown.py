@@ -14,7 +14,8 @@
 
 import re
 import warnings
-from typing import cast, Any, Callable, Match, Optional
+from typing import cast, Any, Callable, Optional
+from re import Match
 
 from html import unescape
 
