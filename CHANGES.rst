@@ -95,6 +95,11 @@ Changes
 
 * Add static types (#225)
 
+33.0 (2022-03-05)
+-----------------
+
+* Support cmarkgfm>=0.8.0 (#224)
+
 33.0 (2022-02-05)
 -----------------
 
@@ -105,7 +110,7 @@ Changes
 -----------------
 
 * Allow start attribute in ordered lists (#216)
-* Remove length limit on rendering RST one column field names (#219)
+* No limit rendering RST one column field names (#219)
 
 31.0 (2021-12-09)
 -----------------
@@ -157,7 +162,7 @@ Changes
 -----------------
 
 * Breaking change: Move the cmarkgfm dependency into an extra (#130). Users
-  that want to render Markdown will need to install readme-renderer[md] instead.
+  that want to render Markdown will need to install readme_render[md] instead.
 
 
 22.0 (2018-09-17)
